@@ -22,7 +22,9 @@
         </activity>
         <activity android:name=".eat" />
         <activity android:name=".play" />
-        <activity android:name=".relax"></activity>
+        <activity android:name=".relax" />
+        <activity android:name=".razon" />
+        <activity android:name=".ace"></activity>
     </application>
 
 </manifest>

@@ -14,7 +14,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button14"
         android:layout_marginTop="15dp"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:id="@+id/searchView2" />
 
     <Button
         android:id="@+id/button14"
@@ -46,4 +47,38 @@
         android:background="@android:color/darker_gray"
         android:onClick="relax"
         android:text="RELAX" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ek"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_below="@+id/searchView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Enchanted Kingdom"
+        android:textSize="10pt"
+        android:layout_below="@+id/searchView2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:text="Enchanted Kingdom, often abbreviated EK, is a theme park in the Philippines. It is located in Santa Rosa, Laguna. It has a land area of 25 hectares (62 acres). The park is managed and operated by Enchanted Kingdom Inc." />
+
+
 </RelativeLayout>

@@ -22,4 +22,8 @@ public class eat extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void razon(View view){
+        Intent intent = new Intent(this, razon.class);
+        startActivity(intent);
+    }
 }
