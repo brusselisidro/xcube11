@@ -24,7 +24,7 @@
         <activity android:name=".play" />
         <activity android:name=".relax" />
         <activity android:name=".razon" />
-        <activity android:name=".ace"></activity>
+        <activity android:name=".ace" />
     </application>
 
 </manifest>
