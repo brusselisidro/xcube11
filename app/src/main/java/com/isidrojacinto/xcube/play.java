@@ -22,4 +22,9 @@ public class play extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void ek(View view){
+        Intent intent = new Intent(this, ek.class);
+        startActivity(intent);
+
+    }
 }

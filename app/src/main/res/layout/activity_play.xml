@@ -59,6 +59,7 @@
         android:layout_below="@+id/searchView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:onClick="ek"
         />
 
     <TextView
