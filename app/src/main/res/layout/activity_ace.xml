@@ -55,21 +55,42 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginTop="12dp"
+        android:text="Location"
+        android:textSize="8pt"
         android:layout_below="@+id/textView11"
-        android:layout_marginTop="64dp"
-        android:text="Branches"
-        android:textSize="8pt"/>
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView13"
-        android:layout_alignRight="@+id/textView13"
+        android:text="Price"
+        android:textSize="8pt"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="350dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="69dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/price_ace"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
         android:layout_below="@+id/textView13"
-        android:layout_marginTop="79dp"
-        android:text="TextView"
-        android:textSize="8pt"/>
+        android:layout_marginTop="12dp"
+        android:text="399 Del Monte Avenue(near cor. Banaue St.) SFDM, Quezon City" />
+
 </RelativeLayout>

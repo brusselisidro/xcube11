@@ -67,7 +67,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Razon's of Guagua"
+        android:text="Razon's of Guagua(SM SAN LAZARO)"
         android:textSize="10pt"
         android:layout_marginTop="12dp"
         android:layout_alignTop="@+id/imageButton"
